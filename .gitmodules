@@ -7,3 +7,21 @@
 [submodule "software"]
 	path = software
 	url = git@gitlab.com:LBL-QubiC/software.git
+[submodule "submodules/ethernet-core"]
+	path = submodules/ethernet-core
+	url = git@gitlab.com:lbl-bids/ethernet-core.git
+[submodule "submodules/board-support"]
+	path = submodules/board-support
+	url = git@gitlab.com:lbl-bids/board-support.git
+[submodule "submodules/peripheral-drivers"]
+	path = submodules/peripheral-drivers
+	url = git@gitlab.com:lbl-bids/peripheral-drivers.git
+[submodule "submodules/fpga-family"]
+	path = submodules/fpga-family
+	url = git@gitlab.com:lbl-bids/fpga-family.git
+[submodule "submodules/common-hdl"]
+	path = submodules/common-hdl
+	url = git@gitlab.com:lbl-bids/common-hdl.git
+[submodule "submodules/kicad_library"]
+	path = submodules/kicad_library
+	url = git@gitlab.com:lbl-bids/kicad_library.git
