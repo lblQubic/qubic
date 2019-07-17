@@ -1,0 +1,9 @@
+[submodule "hardware"]
+	path = hardware
+	url = git@gitlab.com:LBL-QubiC/hardware.git
+[submodule "firmware"]
+	path = firmware
+	url = git@gitlab.com:LBL-QubiC/firmware.git
+[submodule "software"]
+	path = software
+	url = git@gitlab.com:LBL-QubiC/software.git
