@@ -3,7 +3,7 @@ AUTOCOMMITMSG=AUTOUPDATESUBMODULE
 COMMITMSG = $(shell git log --pretty=oneline --abbrev-commit |head -1 | awk '{print $$2}')
 
 submoduleupdate:
-	for f in $(SUBMODULES); do git add $f; done
+	$(for f in $(SUBMODULES); do echo $f; git add $f; done)
 ifeq ($(COMMITMSG),$(AUTOCOMMITMSG))
 	echo yes
 	git reset --soft HEAD^
@@ -15,3 +15,4 @@ else
 	-git commit -a -m $(AUTOCOMMITMSG)
 endif
 	-git commit -a -m $(AUTOCOMMITMSG)
+	#for f in $(SUBMODULES); do git add $(f); done
