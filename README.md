@@ -1,7 +1,7 @@
 Qubit Control System (QubiC) [1]
 
 QubiC is an in-house developed FPGA based qubit control system developed at LBNL under the supporting from Department of Energy (DOE).
-The QubiC source code is released under a LBNL modified BSD license.
+The QubiC source code is released under a [LBNL modified BSD license](Legal.txt).
 
 The QubiC contains the hardware, FPGA gateware and software. Each in its own git submodule. 
 So the easist way is clone the repo recursively 
