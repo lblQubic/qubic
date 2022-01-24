@@ -25,3 +25,6 @@
 [submodule "submodules/kicad_library"]
 	path = submodules/kicad_library
 	url = git@gitlab.com:lbl-bids/kicad_library.git
+[submodule "gateware"]
+	path = gateware
+	url = git@gitlab.com:LBL-QubiC/gateware.git
